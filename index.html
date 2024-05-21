@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper">
+    <div class="welcome">
+        <h1>Bem-vindo ao <br> Mar de Rotas</h1>
+        <p>Chegar ao seu destino nunca foi tão fácil.</p>
+    </div>
+    <nav class="nav">
+        <a href="#"><img src="logomdr250x150.png" alt="logo"></a>
+        <div class="navbar">
+            <ul>
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Ajuda</a></li>
+                <li><a href="#" class="link">Contato</a></li>
+                <li><a href="#" class="link">Sobre</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button id="loginbtn" class="btn" onclick="window.location.href='./login.html'">Login</button>
+            <button id="registrobtn" class="btn" onclick="window.location.href='./registro.html'">Registrar</button>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container">
+            <div class="buttons">
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Informe seu local">
+                    <i class='bx bx-current-location'></i>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Informe seu destino">
+                    <i class='bx bxs-map'></i>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="input-button">
+                    <span>Veja preços</span>
+                    <i class='bx bx-money'></i>
+                </button>
+            </div>
+            <div class="buttons">
+                <button class="input-button">
+                    <span>Somente horários</span>
+                    <i class='bx bx-time-five'></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

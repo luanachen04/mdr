@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="loginregistro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="logomdrlogin.png" width="300" height="130" alt="logologin"></h1>
+
+        <form action="#">
+            <div class="input-container">
+                <input type="text" id="email" placeholder="" required>
+                <label id="emailLabel" for="email">E-mail</label>
+                <i class='bx bx-envelope'></i>
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="senhaLabel" for="senha">Senha</label>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <div class="recuperação">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+
+            <div class="redesocial-icon">
+                <i class='bx bxl-facebook-circle' ></i>
+                <i class='bx bxl-google'></i>
+            </div>
+        </form>
+        <button>Login</button>
+        <div class="temconta">
+            Não possui uma conta? <a href="./registro.html">
+                Registre aqui
+            </a>
+        </div>
+    </div>
+</body>
+</html>

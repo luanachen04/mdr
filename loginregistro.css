@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: hsl(192, 62%, 25%);
+}
+
+.container{
+    text-align: center;
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px 12px 45px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding-left: 15px;
+    transform: translateY(-50%);
+    color: #4e4c4c;
+}
+
+.input-container label {
+    position: absolute;
+    top: 11px;
+    left: 45px;
+    color: #4e4c4c;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-container input:focus ~ label,
+.input-container input:not(:placeholder-shown) ~ label {
+    top: 0;
+    left: 50px;
+    font-size: 10px;
+}
+
+
+.redesocial-icon i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 1.1rem;
+    padding: 10px 0;
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: black;
+    outline: none;
+}
+
+button:hover{
+    background: hsl(192, 62%, 25%);
+}
+
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.temconta{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.recuperação{
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+
+.redesocial-icon{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.redesocial-icon i{
+    width: 50px;
+    font-size: 25px;
+    margin: 0 20px;
+    cursor: pointer;
+}
